@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
         try {
             String data1 = edit.getText().toString();
-            writer = openFileOutput("data5.txt", MODE_APPEND);
+            writer = openFileOutput("data6.txt", MODE_APPEND);
             writer.write(checkedBoxes.getBytes());
             writer.write(data1.getBytes());
         }catch (IOException e){

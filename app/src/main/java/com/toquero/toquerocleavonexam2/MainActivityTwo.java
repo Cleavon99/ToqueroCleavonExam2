@@ -28,7 +28,7 @@ public class MainActivityTwo extends AppCompatActivity {
         try{
             int token;
             StringBuffer buffer = new StringBuffer();
-            reader = openFileInput("data5.txt");
+            reader = openFileInput("data6.txt");
             while((token=reader.read())!=-1){
                 buffer.append((char)token);
                 msg=msg+(char)token;
